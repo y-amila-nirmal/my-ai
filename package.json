@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "better-auth": "^1.1.15",
+    "@google/generative-ai": "^0.21.0",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
