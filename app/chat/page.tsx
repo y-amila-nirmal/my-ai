@@ -15,7 +15,7 @@ export default function ChatPage() {
     } else {
       setLoading(false);
     }
-  }, []);
+  }, [router]);
   
   const handlePrompt = async (e: React.FormEvent) => {
     const inpuElement = e.currentTarget as HTMLInputElement;
